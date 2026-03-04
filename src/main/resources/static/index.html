@@ -144,8 +144,7 @@
                 const cardHTML = `
                     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="card h-100 bg-dark text-white border-secondary pokedex-card"
-                             onmouseenter="abrirFichaMaior(${i})"
-                             onmouseleave="fecharFichaMaior()">
+                             onclick="abrirFichaMaior(${i})">
 
                             <img src="${personagem.image}" class="card-img-top border-bottom border-secondary" alt="${personagem.name}">
                             <div class="card-body text-center p-2">
