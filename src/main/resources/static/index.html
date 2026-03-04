@@ -114,7 +114,7 @@
 
     const modalFicha = new bootstrap.Modal(document.getElementById('fichaModal'), {
         keyboard: false,
-        focus: false // Impede que o modal "roube" o foco e trave o scroll
+        focus: false
     });
 
     async function carregarCatalogo(pagina) {
@@ -124,7 +124,6 @@
             const dados = await resposta.json();
 
             totalPaginas = dados.info.pages;
-            // Salva a lista de personagens para consulta no JavaScript
             personagensDaPagina = dados.results;
 
             document.getElementById('contadorPagina').innerText = `Página ${paginaAtual} de ${totalPaginas}`;

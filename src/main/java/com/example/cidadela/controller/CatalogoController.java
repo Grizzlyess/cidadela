@@ -16,7 +16,6 @@ public class CatalogoController {
         this.service = service;
     }
 
-    // A rota local que você vai digitar no navegador
     @GetMapping("/catalogo")
     public CatalogoResponse listarPersonagens(@RequestParam(defaultValue = "1") int pagina) {
         return service.buscarCatalogo(pagina);

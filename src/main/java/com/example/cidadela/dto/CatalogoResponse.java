@@ -16,8 +16,8 @@ record CharacterDTO(
         String status,
         String species,
         String image,
-        String gender,       // Gênero (Male, Female, etc)
-        String type,         // Subespécie ou tipo (pode ser vazio)
-        Origin origin,       // Objeto com o nome da origem
-        Location location    // Objeto com o nome da localização atual
+        String gender,
+        String type,
+        Origin origin,
+        Location location
 ) {}
