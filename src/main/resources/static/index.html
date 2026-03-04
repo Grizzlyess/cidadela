@@ -119,7 +119,8 @@
 
     async function carregarCatalogo(pagina) {
         try {
-            const resposta = await fetch(`http://localhost:8080/catalogo?pagina=${pagina}`);
+            //const resposta = await fetch(`http://localhost:8080/catalogo?pagina=${pagina}`);
+            const resposta = await fetch(`/catalogo?pagina=${pagina}`);
             const dados = await resposta.json();
 
             totalPaginas = dados.info.pages;
