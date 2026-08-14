@@ -20,17 +20,3 @@ O **Cidadela** é uma aplicação desenvolvida para consumir e processar dados d
 * **Hospedagem/Deploy:** Render
 * **Integração:** RestTemplate / WebClient *(ajuste conforme o que você usou)*
 
-## 🚀 Como Executar o Projeto Localmente
-
-Se você deseja rodar este projeto na sua máquina, siga os passos abaixo:
-
-### Pré-requisitos
-* Git instalado.
-* Java 17+ instalado.
-* PostgreSQL instalado e rodando (ou via Docker).
-
-### Passo a Passo
-
-1. **Faça o clone do repositório:**
-   ```bash
-   git clone [https://github.com/SEU_USUARIO/cidadela.git](https://github.com/SEU_USUARIO/cidadela.git)
